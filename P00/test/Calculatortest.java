@@ -38,20 +38,20 @@ public class Calculatortest {
 	}
 	@Test
 	public  void testMultiply() {
-		int a=20;
-		int b=5;
+		int a=200;
+		int b=6;
 		Calculator cal= new Calculator();
 		int actual = cal.multiply(a, b);
-		int expected=100;
+		int expected=1200;
 		assertEquals(actual,expected);
 	}
 	@Test 
 	public  void testDivide() {
-		int a=300;
+		int a=200;
 		int b=5;
 		Calculator cal= new Calculator();
 		int actual = cal.divide(a, b);
-		int expected=60;
+		int expected=40;
 		assertEquals(actual,expected);
 	}
 
